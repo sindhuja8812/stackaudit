@@ -2,9 +2,7 @@
 
 # stackaudit
 
-**
-A CLI tool that audits any project directory and generates a scored, graded health report card across six categories: dependencies, security, testing, documentation, code quality, and structure.
-**
+**A CLI tool that audits any project directory and generates a scored, graded health report card across six categories: dependencies, security, testing, documentation, code quality, and structure.**
 
 ![CI](https://github.com/sindhuja8812/stackaudit/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
