@@ -25,7 +25,9 @@ stackaudit = "stackaudit.cli:app"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "--cov=stackaudit --cov-report=term-missing"
+filterwarnings = ["ignore::pytest.PytestCollectionWarning"]
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["stackaudit*"]
+
